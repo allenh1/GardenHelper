@@ -8,8 +8,10 @@ class Plant
 public:
     Plant(QString _name);
 
+    void setDatePlanted(QDate _planted);
 private:
     QString m_name;
+    QDate * p_planted;
 };
 
 #endif // PLANT_H
